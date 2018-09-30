@@ -1,0 +1,36 @@
+#container{
+	width: 1080px;
+	background-color: white;
+	border-style: solid white #DDDDDD;
+}
+
+#top-bar{
+	height: 145px;
+	background-image: url("");
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#follower-count{
+	height: 355px;
+	background-image: url('../ig-profile/images/Follower-Count.png') repeat;
+}
+
+#pfp{
+	height: 255px;
+	widows: 255px;
+}
+
+#bio{
+	font-family: 'Lato', sans-serif;
+}
+
+#photo-bar{
+	height: 140px;
+	background-image: url();
+}
+
+#bottom-bar{
+	height: 135px;
+	background-image: url('../ig-profile/images/Bottom-Bar.png')
+}
