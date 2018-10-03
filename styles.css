@@ -8,6 +8,7 @@
 #top-bar{
 	height: 145px;
 	background-image: url('../ig-profile/images/Top-Bar.png');
+	background-repeat: no-repeat;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -21,26 +22,26 @@
 #follower-count{
 	height: 355px;
 	background-image: url('../ig-profile/images/Follower-Count.png');
-	z-index: 0;
+	background-repeat: no-repeat;
 }
 
 #pfp{
 	width: 255px;
 	height: 255px;
 	border-radius: 50%;
-	object-fit: cover;
-	background-image: url('../ig-profile/images/pfp.png');
-	z-index: 1;
+	object-fit: contain;
+	background-image: url('../ig-profile/images/pfp.JPEG');
+	background-repeat: no-repeat;
 	padding-left: 70px;
 	padding-top: 70px;
 }
 
 #bio{
 	font-family: 'Lato', sans-serif;
-	font-size: 30px;
+	font-size: 35px;
 }
 
-a{
+#bio a{
 	text-decoration: none;
 	color: #152642;
 }
@@ -50,7 +51,46 @@ a{
 	background-image: url('../ig-profile/images/Photo-Bar.png');
 }
 
+#pictures{
+	background-repeat: no-repeat;
+	height: 720px;
+	width: 1080px;
+}
+
+.ig-image{
+	display: inline-block;
+	height: 356px;
+	width: 356px;
+	object-fit: contain;
+}
+
+#p1{
+	background-image: url('../ig-profile/images/image-1.jpg');
+	resize: both;
+}
+
+#p2{
+	background-image: url('../ig-profile/images/image-2.jpg');
+}
+
+#p3{
+	background-image: url('../ig-profile/images/image-3.jpg');
+}
+
+#p4{
+	background-image: url('../ig-profile/images/image-4.jpg');
+}
+
+#p5{
+	background-image: url('../ig-profile/images/image-5.jpg');
+}
+
+#p6{
+	background-image: url('../ig-profile/images/image-6.jpg');
+}
+
 #bottom-bar{
 	height: 135px;
-	background-image: url('../ig-profile/images/Bottom-Bar.png')
+	background-image: url('../ig-profile/images/Bottom-Bar.png');
+	background-repeat: no-repeat;
 }
