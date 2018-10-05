@@ -7,7 +7,7 @@
 
 #top-bar{
 	height: 145px;
-	background-image: url('../ig-profile/images/Top-Bar.png');
+	background-image: url("https://github.com/destinyshishido/ig-profile/blob/master/images/Top-Bar.png?raw=true");
 	background-repeat: no-repeat;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
@@ -21,7 +21,7 @@
 
 #follower-count{
 	height: 355px;
-	background-image: url('../ig-profile/images/Follower-Count.png');
+	background-image: url("https://github.com/destinyshishido/ig-profile/blob/master/images/Follower-Count.png?raw=true");
 	background-repeat: no-repeat;
 }
 
@@ -29,11 +29,8 @@
 	width: 255px;
 	height: 255px;
 	border-radius: 50%;
-	object-fit: contain;
-	background-image: url('../ig-profile/images/pfp.JPEG');
-	background-repeat: no-repeat;
-	padding-left: 70px;
-	padding-top: 70px;
+	padding-left: -707px;
+	padding-top: 53px;
 }
 
 #bio{
@@ -48,7 +45,7 @@
 
 #photo-bar{
 	height: 140px;
-	background-image: url('../ig-profile/images/Photo-Bar.png');
+	background-image: url("https://github.com/destinyshishido/ig-profile/blob/master/images/Photo-Bar.png?raw=true");
 }
 
 #pictures{
