@@ -26,11 +26,16 @@
 }
 
 #pfp{
-	width: 255px;
-	height: 255px;
+	background-image: url('../ig-profile/images/pfp.JPEG');
 	border-radius: 50%;
-	padding-left: -707px;
-	padding-top: 53px;
+	padding-left: 210px;
+	padding-top: 210px;
+	height: 115px;
+	width: 115px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-color: grey;
+	border-width: 2px;
 }
 
 #bio{
@@ -56,9 +61,9 @@
 
 .ig-image{
 	display: inline-block;
-	height: 356px;
-	width: 356px;
-	object-fit: contain;
+	height: 355.97px;
+	width: 355.97px;
+	background-size: cover;
 }
 
 #p1{
@@ -75,15 +80,17 @@
 }
 
 #p4{
-	background-image: url('../ig-profile/images/image-4.jpg');
+	background-image: url("https://i.pinimg.com/originals/ab/4d/6b/ab4d6b1397612c703c099baf5b3e2975.jpg");
 }
 
 #p5{
-	background-image: url('../ig-profile/images/image-5.jpg');
+	background-image: url("https://data.whicdn.com/images/293137495/superthumb.png?t=1501251118");
 }
 
 #p6{
-	background-image: url('../ig-profile/images/image-6.jpg');
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOBqlxnK5DUCAORTcn5jgTPX2q44fmR4-2l43F_wx-0lz7q9s-iQ");
+	background-repeat: no-repeat;
+	height: 
 }
 
 #bottom-bar{
